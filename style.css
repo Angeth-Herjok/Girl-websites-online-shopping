@@ -1,0 +1,112 @@
+body{
+
+}
+.heading-image{
+    background-image: url("/images/kidscloths.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    list-style: none;
+    text-transform: uppercase;
+}
+li a{
+    list-style: none;
+    text-decoration: none;
+    
+}
+.nav-button{
+    color: white;
+    border-radius: 25px;
+    padding: 15px 18px;
+    background-color: crimson;
+}
+.heading-message{
+    margin-left: 25%;
+    margin-top: 30%;
+}
+.head-message-button{
+    background-color: crimson;
+    border-radius: 25px;
+    padding: 25px 80px;
+    color: aliceblue;
+    font-size: x-large;
+}
+.head-message{
+    font-size: x-large;
+}
+.span-happy{
+    color: darkblue;
+    font-size: xx-large;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.span-message{
+    font-size: x-large;
+    text-transform: uppercase;
+}
+.head-images{
+    display: flex;
+}
+.image-one{
+    width: 90%;
+}
+.head-images-head{
+    margin-left: 35%;
+    text-transform: uppercase;
+}
+.image-one1{
+    height: 95%;
+    width: 95%;
+}
+.image-one2{
+    height: 60%;
+    width: 70%;
+}
+.image-one3{
+    height: 60%;
+    width: 70%;
+}
+.image-one4{
+    height: 60%;
+    width: 100%;
+}
+.image-one5{
+    height:80% ;
+    width: 80%;
+}
+.head-images-head2{
+    margin-left: 30%;
+    text-transform: uppercase;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    background-color: #15aabf;
+    border-radius: 25px;
+    width: 100%;
+    height: 100%;
+}
+li{
+    list-style: none; 
+}
+.footerCopy{
+    background-color: #15aabf;
+    border-radius: 25px;
+}
+.footer-copy{
+    text-align: center;
+}
+@media  sreen and (max-width:765px) {
+.nav-button{
+    width: 40%;
+} 
+.footer-content{
+    font-size: medium;
+} 
+}
